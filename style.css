@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    padding: 16px 20px;
+}
+.nav-blue{
+    background-color: #0020F4;
+    height: 388px;
+    width: 100%;
+}
+header img{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -50px;
+    transition: 0.5s;
+}
+.kontaqti ul li{
+    margin-top: -60px;
+    background-color: white;
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+.pirveli-box{
+    max-width: 1195px;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+.container-section{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    margin-top: -200px;
+}
+.container-section h2{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.box img{
+    width: 270px;
+    height: 270px;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.text-p{
+    margin-top: 50px;
+}
+
+.detel a{
+    background: #0A22F4;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.detel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detel a:hover{
+    transform: scale(1.1);
+}
+
+.footer-blue{
+    margin-top: 150px;
+    background-color: #0020F4;
+    height:  1080px;
+    width: 100%;
+}
+
+.container-footer{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-footer p{
+    margin-top: 30px;
+}
+
+.saregistracio{
+    margin-top: -100px;
+}
+
+.ruka iframe{
+    margin-top: 50px;
+    width: 463px;
+    height: 197px;
+    border-radius: 20px;
+}
+.saregistracio input{
+    width: 80%;
+    height: 30px;
+}
+.saregistracio textarea{
+    width: 80%;
+    height: 30px;
+}
+.ruka{
+    width: 80%;
+    margin: auto;
+    display: block;
+
+    padding: 0px 10px;
+    color: white;
+}
+.saregistracio input textarea{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+@media (width < 1024px){
+    header nav{
+        display: none;
+    }
+    .container-footer{
+        grid-template-columns: 1fr;
+    }
+    
+    header img{
+        margin-left: 45%;
+        margin-top: 30px;
+    }
+
+    .pirveli-box {
+        height: 70%;
+    }
+    
+    .box img{
+        height: 50%;
+    }
+}
